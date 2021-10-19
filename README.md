@@ -48,3 +48,8 @@ Hello, World![改行]を5回表示させてください。 print(或いはprintf
 2001年はうるう年ではありません
 ```
 - [leap_year.rb](./lib/leap_year.rb)
+
+### 平方根を求めてみる
+- 与えられた数の平方根を求める
+- 当然ライブラリは使わない
+- [root.rb](./lib/root.rb)
