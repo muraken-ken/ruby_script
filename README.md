@@ -70,3 +70,8 @@ Hello, World![改行]を5回表示させてください。 print(或いはprintf
 なおルール上4422などのゾロ目の正解は出ないようにしましょう。
 また、先頭が0だとn桁の数字じゃなくなるのでせっかくなので0は発生させないようにしましょう。
 - [hit_blow.rb](./lib/hit_blow.rb)
+
+### カレンダー出力  
+年と月を入力してカレンダーを出力する。 画面フォーマットはCUI,GUI,WEB等自由とする
+- [current_calendar](./lib/current_calendar.rb)
+- [calendar](./lib/calendar.rb)
