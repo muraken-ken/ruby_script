@@ -4,14 +4,14 @@
 # このゲームを作成しなさい。
 # 答えの数は乱数を使って毎回別の答えを用意しましょう。
 
+require 'readline'
 class HighLow
   def main
     target_number = rand(1..100)
     times = 0
     while times < 15 do
       times += 1
-      print '1～100までの数字を入力してください（0：終了）：'
-      input_number = gets.chomp.to_i
+      input_number = input_number()
       if input_number.zero?
         give_up
         break
@@ -23,6 +23,20 @@ class HighLow
       else
         puts 'high'
       end
+    end
+  end
+
+  def input_number
+    stty_save = `stty -g`.chomp
+    begin
+      while input_number = Readline.readline('1～100までの数字を入力してください（0：終了）> ', true).to_i
+        return input_number if input_number >= 0 && input_number <= 100
+
+        puts '数字を入れ直してください'
+      end
+    rescue Interrupt
+      system('stty', stty_save)
+      exit
     end
   end
 
