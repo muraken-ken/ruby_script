@@ -15,9 +15,7 @@ def input_number
   stty_save = `stty -g`.chomp
   begin
     while input_array = Readline.readline('4桁の数字を入力してください（重複なし、先頭は0以外）> ', true).split('').map(&:to_i)
-      unless (input_array.count != 4) || input_array[0].zero? || (input_array.count - input_array.uniq.count).positive?
-        return input_array
-      end
+      return input_array if input_array.count == 4 && input_array.uniq.count == 4 && input_array[0].positive?
 
       puts '数字を入れ直してください'
     end
