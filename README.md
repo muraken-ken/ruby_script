@@ -75,3 +75,10 @@ Hello, World![改行]を5回表示させてください。 print(或いはprintf
 年と月を入力してカレンダーを出力する。 画面フォーマットはCUI,GUI,WEB等自由とする
 - [current_calendar](./lib/current_calendar.rb)
 - [calendar](./lib/calendar.rb)
+
+### Caesar暗号解読  
+Caesar暗号を解読するプログラムを作り,暗号を解読してください。 暗号鍵（何文字ずらすか）は不明ですが、文字列に"person"が含まれることがわかっています。ご利用ください。 Caesar暗号についてはシーザー暗号-wikipediaを参照してください。
+
+- 暗号文 "qdq-gi.q-a ziatmxxitmdqibtqi-ustbi ri.qmoqrcxi.qbubu zir -ibtqi-qp-qaai ripmymsqkir -ibtqi-qy dmxi ri.cnxuoi rruoumxakir -ibtqiqzmobyqzbkii-q.qmxi -imyqzpyqzbi rixmeaki -puzmzoqai -i-qscxmbu zaimzpir -i btq-iymbbq-a;iz -iatmxximzgi.q-a zinqiuzimzgiemgipuao-uyuzmbqpimsmuzabir -ia. za -uzsiacotiimi.qbubu zj" （最初と最後のダブルクォートは除く）
+- 使用される文字の列 "abcdefghijklmnopqrstuvwxyz .,-" （ダブルクォートは除く。空白もあります。注意してください。暗号文にセミコロン";"が含まれています。これは置換するべき文字列に含まれていないので、そのままにしてください。）
+- 
