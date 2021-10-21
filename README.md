@@ -81,4 +81,20 @@ Caesar暗号を解読するプログラムを作り,暗号を解読してくだ�
 
 - 暗号文 "qdq-gi.q-a ziatmxxitmdqibtqi-ustbi ri.qmoqrcxi.qbubu zir -ibtqi-qp-qaai ripmymsqkir -ibtqi-qy dmxi ri.cnxuoi rruoumxakir -ibtqiqzmobyqzbkii-q.qmxi -imyqzpyqzbi rixmeaki -puzmzoqai -i-qscxmbu zaimzpir -i btq-iymbbq-a;iz -iatmxximzgi.q-a zinqiuzimzgiemgipuao-uyuzmbqpimsmuzabir -ia. za -uzsiacotiimi.qbubu zj" （最初と最後のダブルクォートは除く）
 - 使用される文字の列 "abcdefghijklmnopqrstuvwxyz .,-" （ダブルクォートは除く。空白もあります。注意してください。暗号文にセミコロン";"が含まれています。これは置換するべき文字列に含まれていないので、そのままにしてください。）
-- 
+- [caesar.rb](./lib/caesar.rb)
+
+### 転置行列  
+入力された行列の転置行列を求めよ
+- 入力例
+```
+1 2 3
+4 5 6
+7 8 9
+```
+- 出力例
+```
+1 4 7
+2 5 8
+3 6 9
+```
+- [transposed_matrix.rb](.lib/transposed_matrix.rb)
