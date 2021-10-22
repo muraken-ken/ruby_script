@@ -97,7 +97,7 @@ Caesar暗号を解読するプログラムを作り,暗号を解読してくだ�
 2 5 8
 3 6 9
 ```
-- [transposed_matrix.rb](.lib/transposed_matrix.rb)
+- [transposed_matrix.rb](./lib/transposed_matrix.rb)
 
 ### 配列いじり  
 配列の先頭はそのままに、先頭以外の要素をすべて0に置き換える。
@@ -109,7 +109,7 @@ Caesar暗号を解読するプログラムを作り,暗号を解読してくだ�
 ```
 3 0 0 0 0
 ```
-- array_transrate.rb(./lib/array_transrate.rb)
+- [array_transrate.rb](./lib/array_transrate.rb)
 
 ### 干支を求めるプログラム  
 西暦から干支（十干／十二支）を求める
@@ -117,4 +117,8 @@ Caesar暗号を解読するプログラムを作り,暗号を解読してくだ�
   - 十干：10で割った余り(0から) => 庚辛壬癸甲乙丙丁戊己
   - 十二支：12で割った余り(0から) => 申酉戌亥子丑寅卯辰巳午未
   - 60年周期
-- eto.rb(./lib/eto.rb)
+- [eto.rb](./lib/eto.rb)
+
+### 線形合同法  
+線形合同法を用いて0<=x<1の範囲の乱数を発生させるプログラムを作成せよ。M＝65536(=2^16),A=997,B=1,Xの初期値を12345として100個の乱数を発生させ,その値と平均を出力しなさい。
+- [linear_congruential_generators.rb](./lib/linear_congruential_generators.rb)
