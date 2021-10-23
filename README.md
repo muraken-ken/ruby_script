@@ -171,3 +171,9 @@ aをn回かけるループ文を使って作って下さい。
 ### 連立方程式を解くプログラム  
 クラーメル法でもガウス法でもかまいません
 - [gaussian_elimination.rb](./lib/gaussian_elimination.rb)
+
+### フラクタル図形の一種  
+- シェルピンスキーのギャスケット
+- wikipedia等を参考にし、これを描画するプログラムを書いてください。
+- C言語の解答は基本情報技術者H15春午後の問題問6を参照
+- [sierpinski_gasket.rb](./lib/sierpinski_gasket.rb)
