@@ -229,3 +229,7 @@ aをn回かけるループ文を使って作って下さい。
 3
 ```
 - [island.rb](./lib/island.rb)
+
+### 星座を求めるプログラム  
+- 月日から星座を求める
+- [zodiac_sign.rb](./lib/zodiac_sign.rb)
