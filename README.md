@@ -233,3 +233,9 @@ aをn回かけるループ文を使って作って下さい。
 ### 星座を求めるプログラム  
 - 月日から星座を求める
 - [zodiac_sign.rb](./lib/zodiac_sign.rb)
+
+### 覆面算
+- Google入社試験問題
+- WWWDOT - GOOGLE = DOTCOM
+- ただし、EとMは交換可能
+- [google.rb](./lib/google.rb)
