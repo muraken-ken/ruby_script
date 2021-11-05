@@ -239,3 +239,8 @@ aをn回かけるループ文を使って作って下さい。
 - WWWDOT - GOOGLE = DOTCOM
 - ただし、EとMは交換可能
 - [google.rb](./lib/google.rb)
+
+### 点字メーカーチャレンジ
+- チェリー本の作者：伊藤さんからのお題（詳細は下記を参照）
+- [tenji-maker-challenge](https://github.com/JunichiIto/tenji-maker-challenge)
+- [tenji_maker.rb](./lib/tenji_maker.rb)
