@@ -248,4 +248,4 @@ aをn回かけるループ文を使って作って下さい。
 ### jra_quine
 - 超絶技巧プログラミング(笑)
 - JRAマークのコードをコピペして実行すると同じコードが生成される
-- [jra_quine](./lib/jra_quine/jra_quine.rb)
+- [jra_quine](./lib/jra_quine/quine_jra.rb)
