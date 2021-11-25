@@ -244,3 +244,8 @@ aをn回かけるループ文を使って作って下さい。
 - チェリー本の作者：伊藤さんからのお題（詳細は下記を参照）
 - [tenji-maker-challenge](https://github.com/JunichiIto/tenji-maker-challenge)
 - [tenji_maker.rb](./lib/tenji_maker.rb)
+
+### jra_quine
+- 超絶技巧プログラミング(笑)
+- JRAマークのコードをコピペして実行すると同じコードが生成される
+- [jra_quine](./lib/jra_quine/jra_quine.rb)
